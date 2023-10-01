@@ -1,0 +1,77 @@
+.card_Section {
+  border: 2px solid #2c3e50; /* Dark blue-gray border */
+  border-radius: 10px;
+  padding: 16px;
+  margin: 10px;
+  background-color: #34495e; /* Dark blue-gray background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  height: auto; /* Adjusted height */
+  
+}
+
+.card_Section:hover {
+  transform: translateY(-5px); /* Slightly lift on hover */
+  background-color: #2c3e50; /* Dark blue-gray on hover */
+}
+
+.filter_section {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.filter_section h5 {
+  margin: 5px 0;
+  color: #e74c3c; /* Dark red text color */
+}
+
+.newQuestion {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.addNewQuestionHearder h1 {
+  background-color: #e67e22; /* Dark orange background */
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.newQuestion h5 {
+  margin: 5px 0;
+  color: #9b59b6; /* Dark purple text color */
+}
+
+button {
+  background-color: #f39c12; /* Dark yellow button background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+button:active {
+  background-color: #e67e22; /* Darker orange on click */
+  transform: translateY(2px);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #555; /* Dark gray border */
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db; /* Blue border color on focus */
+  background-color: #2c3e50; /* Dark blue-gray background on focus */
+}

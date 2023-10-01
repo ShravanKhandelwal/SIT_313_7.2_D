@@ -1,0 +1,108 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for Article_Section headers */
+.HeaderArticle_Section h2 {
+    background-color: #2c3e50; /* Dark blue-gray */
+    color: #fff; /* White text */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+/* Style for Article_Section titles */
+.title {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.title label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.title input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 3px;
+}
+
+/* Style for Abstract_Area */
+.Abstract_Area label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Abstract_Area input {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 3px;
+}
+
+/* Style for Article_Section content */
+.Article_Section label {
+    margin: 10px 0;
+    font-weight: bold;
+    display: block;
+}
+
+.Article_Section textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 3px;
+}
+
+/* Style for Article_Section images */
+.img h2 {
+    background-color: #e74c3c; /* Dark red */
+    color: #fff; /* White text */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+/* Style for tags */
+.Tag label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Tag input {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 3px;
+}
+
+/* Style for buttons */
+.Button {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f39c12; /* Dark yellow */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    background-color: #d35400; /* Darker orange on hover */
+}

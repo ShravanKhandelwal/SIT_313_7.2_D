@@ -1,0 +1,9 @@
+.App h1{
+margin: 10px;
+background-color: grey;
+padding: 5px;
+border: 2px solid white;
+}
+.App{
+    font-weight: bolder;
+}
